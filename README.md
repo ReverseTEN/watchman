@@ -22,6 +22,18 @@ Bug hunters can schedule the script to run at regular intervals using a cronjob 
 
 Overall, this program is a valuable addition to any bug hunter's toolkit, as it can help them save time and effort by automating the monitoring process and delivering notifications in a timely manner. Give it a try and see how it can improve your workflow and help you stay ahead of any potential vulnerabilities!
 
+  
+ ## Mindmap/Workflow
+
+
+  ![Watcher_Project](https://user-images.githubusercontent.com/59805766/222386533-ba815728-e56f-4cc8-a802-735e5ee34311.png)
+  
+  
+  You can use [Subtracker](https://github.com/ReverseTEN/subtracker) to update `ips.txt` automatically or manually input your target in `ips.txt`. 
+  For projects with a smaller number of assets and subdomains, I recommend using the automatic option. However, if you prefer the above workflow, you can add a simple command to Watchman to receive newly discovered subdomains from [Subtracker](https://github.com/ReverseTEN/subtracker).
+
+  
+  
 
 ## Requirements
 
