@@ -48,7 +48,7 @@ Overall, this program is a valuable addition to any bug hunter's toolkit, as it 
 
 ```
 
-git clone https://github.com/RT3N/watchman.git
+git clone https://github.com/ReverseTEN/watchman.git
 cd watchman
 chmod +x watchman.sh
 
